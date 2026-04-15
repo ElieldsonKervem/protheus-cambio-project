@@ -1,0 +1,41 @@
+@use "mixins";
+
+body{
+  background: var(--background-color);
+  color: var(--black-color);
+}
+
+.flex-colum{
+  @include mixins.flex-colum;
+}
+
+.signin-header{
+    margin-top: 3rem;
+}
+
+.p-sm{
+  padding: 0.8rem 1rem;
+}
+
+.t-left{
+     text-align: left;
+}
+.t-center{
+     text-align: center;
+}
+
+.aling-left{
+  align-items: flex-start;
+}
+
+.flex-start{
+  @include mixins.flex-start
+}
+
+.m-top{
+  margin-top: 1.8rem;
+
+  @media(min-width: 900px){
+     margin-top: 2.4rem;
+  }
+}

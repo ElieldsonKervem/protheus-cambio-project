@@ -1,0 +1,50 @@
+
+:root{
+    --background-color: #ffff;
+    --black-color: #000000;
+    --text-gray: rgba(0,0,0,0.40);
+    --purple-main: #7765E3;
+    --green-main: #00D828;
+    --red-main: #EB2C2C;
+
+    //glass effect
+
+    --glass-dark-bg: rgba(40, 40, 40, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-blur: 16px;
+
+
+    //padding
+
+    
+    --pd-xsm:0.8rem;
+    --pd-sm: 1.6rem;
+    --pd-xm: 2.4rem;
+    --pd-xml: 3.2rem;
+    --pd-xl: 4.8rem;
+    --pd-xxl: 6.4rem;
+
+}
+
+
+
+
+
+$md-typography: (
+  display-large: (size: 5.7rem, line-height: 6.4rem, weight: 400),
+  display-medium: (size: 4.5rem, line-height: 5.2rem, weight: 400),
+  display-small: (size: 3.6rem, line-height: 4.4rem, weight: 400),
+  
+  headline-large: (size: 3.2rem, line-height: 4.0rem, weight: 400),
+  headline-medium: (size: 2.8rem, line-height: 3.6rem, weight: 400),
+  headline-small: (size: 2.4rem, line-height: 3.2rem, weight: 400),
+  
+  title-large: (size: 2.2rem, line-height: 2.8rem, weight: 400),
+  title-medium: (size: 1.6rem, line-height: 2.4rem, weight: 500),
+  
+  body-large: (size: 1.6rem, line-height: 2.4rem, weight: 400),
+  body-medium: (size: 1.4rem, line-height: 2.0rem, weight: 400),
+  
+  label-large: (size: 1.4rem, line-height: 2.0rem, weight: 500)
+);
+
