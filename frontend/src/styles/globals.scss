@@ -1,4 +1,5 @@
-@import "reset";  
-@import "variables";
-@import "fonts";
-@import "layout";
+@use "reset";  
+@use "variables";
+@use "fonts";
+@use "layout";
+@use "components"

@@ -1,0 +1,26 @@
+@use "../../../styles/mixins" as mixins;
+@use "../../../styles/variables";
+
+.form{
+     height: 52.6rem;
+}
+.form::before{
+    content: "";
+    width: 14.9rem;
+    height: 14.9rem;
+    position: absolute;
+    top: -3rem;
+    border-radius: 100%;
+    background: var(--text-gray);
+    z-index: -3;
+    left: 70vw;
+   
+}
+
+.inputField{
+    padding: 1.8rem;
+}
+
+.createCount{
+    padding-bottom: 1.6rem;
+}

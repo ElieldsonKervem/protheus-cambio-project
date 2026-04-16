@@ -53,6 +53,12 @@ html{
 body{
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
+    width: 100vw;
+    overflow-x: hidden !important ;
+}
+
+a{
+  text-decoration: none;
 
 }
 
