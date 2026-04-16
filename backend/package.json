@@ -1,0 +1,18 @@
+{
+  "name": "protheus-cambio-backend",
+  "version": "1.0.0",
+  "description": "back end of protheus cambio proeject",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"jest\""
+  },
+  "author": "Elieldson Kervem",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
