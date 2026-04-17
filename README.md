@@ -1,4 +1,4 @@
-# 🪙 Promeheus Cambio
+# 🪙 Prometheus Cambio
 
 Uma plataforma moderna e segura para operações de câmbio, desenhada com foco em alta performance, validação rigorosa de dados e arquitetura escalável.
 
